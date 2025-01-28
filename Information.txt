@@ -1,0 +1,65 @@
+ETIQUETAS
+* Script 
+    Atributos
+    - src: para referenciar archivos externos.
+
+VARIABLES
+    - let: palabra reservada. Usado para crear variables.
+        Ej: let nombre = "nombre";
+    - const: Usado para crear variables.
+    Diferencia entre "let" y "const"
+        - Regla general: nunca cambiar el valor de una variable.
+        - Usamos let: cuando queramos cambiar el valor de una variable.
+        - Usamos const: cuando no vamos a cambiar el valor de la variable. Y si lo hacemos lanza un error.
+
+TIPOS DE DATOS
+* Primitivos       
+    - Number        
+    - String        
+    - Boolean       
+    - Undefined     
+    - Null          
+
+* De referencia
+    - Array
+    - Object
+    - Functions
+    - Clases
+
+OBJETOS
+//QUEDÉ EN EL MINUTO 1:00:08 que es donde se empieza a hablar de los objetos
+https://youtu.be/QoC4RxNIs5M?t=3608
+
+
+
+
+
+
+
+
+console.log();  // imprimir mensajes en la consola del navegador
+    - typeof es un operador que devuelve el tipo de dato de una variable.
+        Ej: console.log(typeof nombre);    //me muestra el tipo de dato usado.
+
+        Type	    typeof return value	    Object wrapper
+        Null	    "object"	            N/A
+        Undefined	"undefined"	            N/A
+        Boolean	    "boolean"	            Boolean
+        Number	    "number"	            Number
+        BigInt	    "bigint"             	BigInt
+        String	    "string"              	String
+        Symbol	    "symbol"            	Symbol
+        (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#null_type)
+
+
+ATAJOS
+    - shift + alt + flecha(arriba/abajo) = para duplicar una línea
+
+    - win + p = abrir el buscador de VScode para cambiar de archivo.
+
+
+
+
+
+
+
