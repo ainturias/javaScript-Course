@@ -27,10 +27,118 @@ TIPOS DE DATOS
     - Clases
 
 OBJETOS
-//QUEDÉ EN EL MINUTO 1:00:08 que es donde se empieza a hablar de los objetos
-https://youtu.be/QoC4RxNIs5M?t=3608
+let persona = {
+	nombre: "alex",
+	edad: 26,
+	sexo: hombre,	//recomendable la coma al final
+};
+//llamado como llave-valor, atributo, propiedad.
 
+* Acceder a una sola propiedad
+    console.log(persona.nombre);    //1er manera
+    console.log(persona['nombre']); //2da manera
 
+* Modificar una propiedad
+    persona.nombre = "daniel";
+    persona['nombre'] = "jose";
+
+* Eliminar una propiedad
+    delete persona.sexo;
+
+ARRAYS
+* Definir un Array
+let animales = ['perro', 'gato'];
+//comienzan desde el cero.
+
+* Acceder a un elemento
+console.log(animales[0]);
+
+* Modificar un elemento
+animales[0] = 'conejo';
+
+* Añadir un elemento
+animales[2] = 'pollo';
+
+FUNCIONES
+* Crear funciones
+    function suma(a, b) {  //se llaman parámetros cuando se definen en la función
+    return a + b;
+    }
+
+* Llamar a las funciones
+    saludar();
+    let resultado = suma(5, 6, 1, 2, 3);    //se llaman argumentos cuando se pasan valores a la función
+
+DECLARACIONES Y EXPRESIONES
+* Declaration: si vamos a crear algo que va a ser utilizado en un futuro.
+    - let //variable
+    - const //constante
+    - function / function*
+    - async function / async function*
+    - Clase
+    - export / import
+ * Statements
+    - if
+    - for
+    - else
+    - switch
+
+* Expression: cada vez que el codigo hace algo y podemos obtener un valor de este, estamos hablando de un expression.
+    - //ej la suma de 2 numeros
+    - //el llamado de una función  miFunction();
+    - //la asignación de un valor a una variable.   x=4;
+
+    En resumidas palabras:
+    - si le podemos hacer un console.log() entonces es una expresión.
+    - si no le podemos hacer un console.log(let), entonces es una declaración.
+
+OPERADORES
+* Aritméticos
+    - suma              // console.log(a + b); 
+    - resta             // console.log(a - b); 
+    - multiplicacion    // console.log(a * b); 
+    - division          // console.log(a / b); 
+    - modulo            // console.log(a % b); 
+    - potencia          // console.log(a ** b); 
+
+    - Incrementar
+    console.log(++a);   // 5 primero incrementa y luego imprime
+    console.log(a++);   // 5 primero imprime y luego incrementa
+    console.log(a);    // 6
+
+    - Decrementar
+    console.log(--a);   // 7 primero decrementa y luego imprime
+    console.log(a--);   // 7 primero imprime y luego decrementa
+    console.log(a);    // 6
+
+* Asignación
+    - Ejemplo:
+        let a = 4;
+        a = a + 4;
+        a += 5; //lo mismo para todas las operaciones aritmeticas.
+
+* Comparación
+    - Ejemplo:
+        //Estos 2 se utilizaban antiguamente por que son propensos a errores. No utilizar.
+            console.log(a == 8);       
+            console.log(a != 8);       
+        //Estos 2 son los que se utilizan actualmente. 
+            console.log(a === '8');   
+            console.log(a !== '8');    
+
+* Lógicos
+    - AND &&
+    - OR ||
+    - NOT !
+
+* Orden de Operadores
+    //1. Parentesis
+    //2. Multiplicacion y division
+    //3. Suma y resta
+
+* Ternario
+    // expresion ? 'si es true' : 'si es false'
+    // Ej: let acceso = edad > 17 ? 'Acceso permitido' : 'Acceso denegado';
 
 
 
